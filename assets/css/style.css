@@ -1002,7 +1002,7 @@ display: none;
     .header-div{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         gap: 587px;
         max-width: 1920px;
@@ -1067,6 +1067,7 @@ display: none;
         max-width: 1920px;
         width: 100%;
         margin-top: 41px;
+        padding: 0 140px;
         gap: 10px;
     
     }
@@ -1266,7 +1267,8 @@ display: none;
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    margin: 50px 0 20px 40px;
+    /* margin: 50px 0 20px 40px; */
+    padding-left: 140px;
 
     
 }
@@ -1283,6 +1285,7 @@ display: none;
 }
 
 .card{
+    width: 24%;
     background-color: rgba(248, 248, 248, 1);
     border-radius: 24px;
     padding-bottom: 27px;
