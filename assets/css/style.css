@@ -626,11 +626,33 @@ footer{
         text-transform: capitalize;
     }
     .search{
-        display: none;
+        display: block;
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        transform: translate(-50%);
+        color:#F8F8F8CC;
     }
-    
+    #search{
+        cursor: pointer;
+        height: 48px;
+        width: 324px;
+        border: none;
+        border-radius: 10px;
+    }
+    .search button{
+        background-color: #fff;
+        border: none;
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        cursor: pointer;
+    }
     /* form style */
-    
+    .search ~ button img{
+        width: 18px;
+        height: 18px;
+    }
     form{
         max-width: 295px;
         width: 100%;
