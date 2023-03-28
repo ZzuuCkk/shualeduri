@@ -1004,7 +1004,7 @@ display: none;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        gap: 500px;
+        gap: 200px;
         max-width: 1920px;
         width: 100%;
         padding: 38px 22px 56px 20px;
@@ -1014,7 +1014,7 @@ display: none;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 500px;
+        gap: 200px;
     }
     nav ul{
         display: flex;
@@ -1066,23 +1066,25 @@ display: none;
         justify-content: center;
         max-width: 1920px;
         width: 100%;
-        margin: 41px auto;
+        /* margin: 41px auto; */
         /* padding: 41px 100px 0 100px; */
         gap: 10px;
+        margin-bottom: 32px;
     
     }
     .img-class{
         order: 2;
         display: block;
-        max-width: 1920px;
+        max-width: 1024px;
         width: 100%;
         position: relative;
-        margin: 0 auto;
+        /* margin: 0 140px 0 0; */
         
     }
     .img-class img{
         max-width: 1920px;
         width: 100%;
+        object-fit: cover;
         border-radius: 24px;
         position: relative;
     }
@@ -1150,10 +1152,11 @@ display: none;
     form{
         max-width: 395px;
         width: 100%;
+        /* margin-left:140px ; */
     }
     
     .form-holder{
-        margin: 0;
+        /* margin: 0; */
         padding: 20px;
         background-color: rgba(248, 248, 248, 1);
         border-radius: 24px;
@@ -1275,17 +1278,18 @@ display: none;
 .card-section-div{
     max-width: 1920px;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     
 }
 
 .card{
-    width: 24%;
+    /* max-width: 480px; */
+    width: 23%;
     background-color: rgba(248, 248, 248, 1);
     border-radius: 24px;
     padding-bottom: 27px;
