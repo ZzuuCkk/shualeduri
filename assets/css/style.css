@@ -468,7 +468,7 @@ footer{
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    position: relative;
+    position: relative; 
 }
 
 .icon-row{
@@ -1066,25 +1066,23 @@ display: none;
         justify-content: center;
         max-width: 1920px;
         width: 100%;
-        /* margin: 41px auto; */
+        margin: 41px auto;
         /* padding: 41px 100px 0 100px; */
         gap: 10px;
-        margin-bottom: 32px;
     
     }
     .img-class{
         order: 2;
         display: block;
-        max-width: 1024px;
+        max-width: 1920px;
         width: 100%;
         position: relative;
-        /* margin: 0 140px 0 0; */
+        margin: 0 auto;
         
     }
     .img-class img{
         max-width: 1920px;
         width: 100%;
-        object-fit: cover;
         border-radius: 24px;
         position: relative;
     }
@@ -1152,11 +1150,10 @@ display: none;
     form{
         max-width: 395px;
         width: 100%;
-        /* margin-left:140px ; */
     }
     
     .form-holder{
-        /* margin: 0; */
+        margin: 0;
         padding: 20px;
         background-color: rgba(248, 248, 248, 1);
         border-radius: 24px;
@@ -1278,18 +1275,17 @@ display: none;
 .card-section-div{
     max-width: 1920px;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     
 }
 
 .card{
-    /* max-width: 480px; */
-    width: 23%;
+    width: 24%;
     background-color: rgba(248, 248, 248, 1);
     border-radius: 24px;
     padding-bottom: 27px;
