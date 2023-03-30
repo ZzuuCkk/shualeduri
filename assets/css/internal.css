@@ -26,6 +26,7 @@ header{
     align-items: center;
     max-width: 768px;
     width: 100%;
+    margin: auto;
     padding: 38px 22px 28px 20px;
 }
 
@@ -65,6 +66,7 @@ nav{
     flex-wrap: wrap;
     max-width: 768px;
     width: 100%;
+    margin:auto;
     gap: 42px;
 }
 .int-img {
@@ -353,6 +355,7 @@ nav{
 .card-section{
     max-width: 768px;
     width: 100%;
+    margin:auto;
 
     
 }
@@ -368,6 +371,7 @@ nav{
 .card-section-div{
     max-width: 768px;
     width: 100%;
+    margin:auto;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
