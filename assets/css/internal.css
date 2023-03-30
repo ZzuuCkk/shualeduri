@@ -69,7 +69,7 @@ nav{
 }
 .int-img {
     display: block;
-    max-width: 722px;
+    max-width: 768px;
     width: 100%;
     padding: 0 20px;
 
@@ -160,8 +160,9 @@ nav{
 
 
 .int-title{
-    padding: 0 20px;
+    padding: 0  24px 20px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 8px;
 }
@@ -338,12 +339,20 @@ nav{
     
 
 }
-
+.section-title{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    color:#000000 ;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
 /* card section styles */
 .card-section{
     max-width: 768px;
     width: 100%;
-    margin-top: 32px;
 
     
 }
@@ -498,16 +507,6 @@ nav{
     
 }
 
-
-
-
-
-
-
-
-
-
-
 /* footer */
 footer{
     background-color: #29B24E;
@@ -568,7 +567,6 @@ footer{
     padding-bottom: 40px;
     
 }
-
 
 /* mobile icons */
 .last{
@@ -638,7 +636,7 @@ footer{
 
 
 
-@media (width >= 768px){
+@media (width >= 769px){
     .header-div{
         display: flex;
         flex-wrap: wrap;
@@ -688,7 +686,71 @@ footer{
         display: none;
     }
 
+    .internal{
+        max-width: 1024px;
+        width: 100%;
+    }
+
+    .int-img {
+        max-width: 1024px;
+        
+    }
+
+
+    .int-img img{
+        max-width: 1024px;
+    }
+    .int-description{
+        max-width: 1024px;
+
+    }
+
+    .int-title{
+        padding: 0 24px 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .int-title :nth-child(1){
+        font-size: 20px;
+    }
+    .int-title :nth-child(2){
+        font-size: 16px;
+        
+    }
     
+    .int-title :nth-child(3){
+        font-size: 16px;
+        
+    }
+
+    .span{
+        gap: 130px;
+        padding: 16px 0;
+    }
+
+    .prop-desc{
+        max-width: 1024px;
+    }
+
+    .child{
+        max-width: 1024px;
+    }
+    .button-holder{
+        max-width: 1024px;
+    }
+    .card-section{
+        max-width: 1024px;
+
+    }
+    .card-section-div{
+        max-width: 1024px; 
+    }
+    .card img{
+        max-width: 1024px;
+    }
+
 /* footer */
 footer{
     background-color: #29B24E;
