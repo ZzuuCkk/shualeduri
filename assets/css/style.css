@@ -302,8 +302,8 @@ background-color: rgba(248, 248, 248, 1);
 }
 
 .card-icon{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     bottom: 0;
     right: 30px;
@@ -314,8 +314,8 @@ background-color: rgba(248, 248, 248, 1);
     position: relative;
     bottom: 0;
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
     z-index: 2;
@@ -839,8 +839,8 @@ footer{
 }
 
 .card-icon{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     bottom: 0;
     right: 30px;
@@ -851,8 +851,8 @@ footer{
     position: relative;
     bottom: 0;
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
     z-index: 2;
@@ -1347,8 +1347,8 @@ display: none;
 }
 
 .card-icon{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     bottom: 0;
     right: 30px;
@@ -1359,8 +1359,8 @@ display: none;
     position: relative;
     bottom: 0;
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
     z-index: 2;

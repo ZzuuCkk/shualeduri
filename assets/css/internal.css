@@ -426,8 +426,8 @@ nav{
 }
 
 .card-icon{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     bottom: 0;
     right: 30px;
@@ -438,8 +438,8 @@ nav{
     position: relative;
     bottom: 0;
     right: 0;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 50%;
     z-index: 2;
@@ -1160,16 +1160,16 @@ display: none;
         padding-bottom: 27px;
     }
     .card:hover{
-        cursor: pointer;
-        animation-name: rotate;
-        animation-delay: 0s;
-        animation-duration: 1s;
-        animation-iteration-count: 1;
-        animation-timing-function: linear;
-        animation-direction: alternate;
-        animation-fill-mode: forwards;
-    
-    }
+    cursor: pointer;
+    animation-name: rotate;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+
+}
     .card-img{
         display: flex;
         flex-direction: column;
@@ -1210,8 +1210,8 @@ display: none;
     }
     
     .card-icon{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         position: absolute;
         bottom: 0;
         right: 30px;
@@ -1222,8 +1222,8 @@ display: none;
         position: relative;
         bottom: 0;
         right: 0;
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         background-color: rgba(255, 255, 255, 1);
         border-radius: 50%;
         z-index: 2;
